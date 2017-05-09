@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.DoubleSummaryStatistics;
 
 import static org.junit.Assert.*;
 
@@ -109,22 +110,22 @@ public class LaboratoryTest {
 
     @Test
     public void testGetGrade() throws Exception {
-        assertEquals(10, lab.getGrade());
-        assertEquals(9, lab1.getGrade());
-        assertEquals(8, lab2.getGrade());
-        assertEquals(7, lab3.getGrade());
+        assertEquals(Double.toString(10), Double.toString(lab.getGrade()));
+        assertEquals(Double.toString(9), Double.toString(lab1.getGrade()));
+        assertEquals(Double.toString(8), Double.toString(lab2.getGrade()));
+        assertEquals(Double.toString(7), Double.toString(lab3.getGrade()));
     }
 
     @Test
     public void testSetGrade() throws Exception {
         lab.setGrade(6);
-        assertEquals(6,lab.getGrade());
+        assertEquals(Double.toString(6),Double.toString(lab.getGrade()));
 
         lab.setGrade(-1);
-        assertEquals(-1, lab.getGrade());
+        assertEquals(Double.toString(-1), Double.toString(lab.getGrade()));
 
         lab.setGrade(100);
-        assertEquals(100, lab.getGrade());
+        assertEquals(Double.toString(100), Double.toString(lab.getGrade()));
     }
 
     @Test
