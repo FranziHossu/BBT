@@ -41,7 +41,6 @@ public class Validator {
         }
         Date date = new Date();
         if(date.after(laboratory.getDate())) {
-            //Calendar.getInstance().get(Calendar.YEAR)
             return false;
         }
         if(!laboratory.getStudentRegNumber().matches("[a-zA-Z]{4}[\\d]{4}")){
