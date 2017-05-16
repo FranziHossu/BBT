@@ -33,7 +33,7 @@ public class ValidatorTest {
         student2 = new Student("nmig0026", "Nemes", "Mada", 731);
         student3 = new Student("bmig0003", "Barutia", "Monica", 731);
 
-        studList = new ArrayList<>();
+        studList = new ArrayList<Student>();
         studList.add(student1);
         studList.add(student2);
         studList.add(student3);
