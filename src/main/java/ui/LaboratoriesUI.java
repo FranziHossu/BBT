@@ -123,7 +123,7 @@ public class LaboratoriesUI {
                     if (!success) {
                         System.out.println("Cannot save grade");
                     }else System.out.println("Grade successfully saved!");
-                } catch (NumberFormatException|IOException|ParseException e) {
+                } catch (/*NumberFormatException|IOException|ParseException*/Exception e) {
                     System.out.println("Cannot save grade");
                 }
 
