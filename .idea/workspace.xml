@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f479816-846c-4023-9b05-0ccbfb6c4b7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java" afterPath="$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <manually-removed-from-ignored>
@@ -62,13 +61,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileDataPersistenceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileDataPersistenceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="215" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.40201005">
+              <caret line="207" column="56" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5376#5388#0" expanded="true" />
+                <element signature="e#5447#5473#0" expanded="true" />
+                <element signature="e#6529#6538#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,23 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaboratoriesControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4379391">
-              <caret line="11" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -513,10 +503,10 @@
         <option value="$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/FileDataPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LaboratoriesController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java" />
-        <option value="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" />
       </list>
     </option>
   </component>
@@ -1260,7 +1250,13 @@
       <option name="project" value="LOCAL" />
       <updated>1494950068559</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Files commited">
+      <created>1494950435348</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1494950435348</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1345,6 +1341,8 @@
           <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4416#4425#0" expanded="true" />
+            <element signature="e#4773#4782#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1708,18 +1706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validator/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1790,16 +1776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0540543">
@@ -1810,22 +1786,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="215" selection-end-column="1" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4379391">
-          <caret line="11" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.18844222">
+          <caret line="146" column="56" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4416#4425#0" expanded="true" />
+            <element signature="e#4773#4782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40201005">
+          <caret line="207" column="56" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5376#5388#0" expanded="true" />
+            <element signature="e#5447#5473#0" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
           </folding>
         </state>
       </provider>

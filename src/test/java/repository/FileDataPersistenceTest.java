@@ -174,17 +174,17 @@ public class FileDataPersistenceTest {
         fdp2.saveLaboratory(lab2);
         fdp2.saveLaboratory(lab3);
 
-        List<Laboratory> list = new ArrayList<>();
-        Map<String, List<Laboratory>> map = new HashMap<>();
+        List<Laboratory> list = new ArrayList<Laboratory>();
+        Map<String, List<Laboratory>> map = new HashMap<String, List<Laboratory>>();
 
         list.add(lab1);
         map.put(lab1.getStudentRegNumber(), list);
 
-        list = new ArrayList<>();
+        list = new ArrayList<Laboratory>();
         list.add(lab2);
         map.put(lab2.getStudentRegNumber(), list);
 
-        list = new ArrayList<>();
+        list = new ArrayList<Laboratory>();
         list.add(lab3);
         map.put(lab3.getStudentRegNumber(), list);
 
@@ -205,7 +205,7 @@ public class FileDataPersistenceTest {
         fdp.saveStudent(student2);
         fdp.saveStudent(student3);
 
-        List<Student> studList = new ArrayList<>();
+        List<Student> studList = new ArrayList<Student>();
         studList.add(student1);
         studList.add(student2);
         studList.add(student3);

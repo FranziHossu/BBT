@@ -131,7 +131,7 @@ public class LaboratoriesControllerTest {
         controller.saveLaboratory(lab3);
 
         List<Student> passedfileStud = controller.passedStudents();
-        List<Student> passedStud = new ArrayList<>();
+        List<Student> passedStud = new ArrayList<Student>();
         passedStud.add(student3);
         passedStud.add(student2);
 
@@ -144,7 +144,7 @@ public class LaboratoriesControllerTest {
         controller.saveStudent(student3);
 
         String line;
-        List<Student> studlist = new ArrayList<>();
+        List<Student> studlist = new ArrayList<Student>();
         Student stud;
 
         while ((line = studReader.readLine()) != null) {
