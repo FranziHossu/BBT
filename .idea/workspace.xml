@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f479816-846c-4023-9b05-0ccbfb6c4b7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <manually-removed-from-ignored>
@@ -61,16 +60,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileDataPersistenceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileDataPersistenceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40201005">
-              <caret line="207" column="56" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5376#5388#0" expanded="true" />
-                <element signature="e#5447#5473#0" expanded="true" />
                 <element signature="e#6529#6538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4769539">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +168,7 @@
       <file leaf-file-name="FileDataPersistence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/FileDataPersistence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-72.68965">
+            <state vertical-scroll-proportion="0.0">
               <caret line="124" column="27" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -180,7 +189,7 @@
       <file leaf-file-name="LaboratoriesUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0540543">
+            <state vertical-scroll-proportion="0.0">
               <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -192,7 +201,7 @@
       <file leaf-file-name="LaboratoriesController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/LaboratoriesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.891892">
+            <state vertical-scroll-proportion="0.0">
               <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -500,13 +509,13 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Laboratory.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/LaboratoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/validator/Validator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/FileDataPersistence.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LaboratoriesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/LaboratoriesControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java" />
       </list>
     </option>
   </component>
@@ -523,7 +532,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -549,6 +558,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -861,9 +873,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1256,23 +1265,28 @@
       <option name="project" value="LOCAL" />
       <updated>1494950435348</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Files commited">
+      <created>1494950831175</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1494950831175</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1527559" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28346458" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17007874" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2298091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1284,6 +1298,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18300654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1527559" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18110237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26251897" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1321,9 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,7 +1343,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,11 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4416#4425#0" expanded="true" />
-            <element signature="e#4773#4782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1381,8 +1391,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1391,15 +1409,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,7 +1434,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1471,7 +1487,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1530,7 +1549,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1582,7 +1604,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,7 +1622,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1700,19 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1748,7 +1763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/FileDataPersistence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-72.68965">
+        <state vertical-scroll-proportion="0.0">
           <caret line="124" column="27" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1767,7 +1782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LaboratoriesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.891892">
+        <state vertical-scroll-proportion="0.0">
           <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1778,7 +1793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/LaboratoriesUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0540543">
+        <state vertical-scroll-proportion="0.0">
           <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1800,11 +1815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18844222">
           <caret line="146" column="56" selection-start-line="146" selection-start-column="56" selection-end-line="146" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4416#4425#0" expanded="true" />
-            <element signature="e#4773#4782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1822,13 +1832,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repository/FileDataPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40201005">
-          <caret line="207" column="56" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5376#5388#0" expanded="true" />
-            <element signature="e#5447#5473#0" expanded="true" />
             <element signature="e#6529#6538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4769539">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
