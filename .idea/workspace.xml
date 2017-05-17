@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5791583">
-              <caret line="75" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="1" />
+              <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1277,7 +1277,13 @@
       <option name="project" value="LOCAL" />
       <updated>1494999284451</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Files commited">
+      <created>1494999892217</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1494999892217</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1850,7 +1856,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/validator/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5791583">
-          <caret line="75" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="1" />
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
