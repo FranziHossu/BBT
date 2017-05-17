@@ -73,7 +73,7 @@ public class ValidatorTest {
         Laboratory lab8 = new Laboratory(1,"28/02/2018", 12, 12, "nmig0026");
 
         assertEquals(validator.validateLaboratory(lab1, studList),true);
-        //assertEquals(validator.validateLaboratory(lab2, studList), false);
+        assertEquals(validator.validateLaboratory(lab2, studList), false);
         assertEquals(validator.validateLaboratory(lab3, studList), false);
         assertEquals(validator.validateLaboratory(lab4, studList), false);
         assertEquals(validator.validateLaboratory(lab5, studList), false);
