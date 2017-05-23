@@ -31,8 +31,9 @@ public class StudentTest {
 
     @Test
     public void testGetRegNumber() throws Exception {
-        //assertEquals("gjig0013", student1.getRegNumber());
-        assertEquals("gjig00132211", student1.getRegNumber());
+        assertEquals("gjig0013", student1.getRegNumber());
+        //pentru fail:
+        //assertEquals("gjig00132211", student1.getRegNumber());
         assertEquals("bmig0003",student2.getRegNumber());
         assertEquals("nmig0026",student3.getRegNumber());
     }
