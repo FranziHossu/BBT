@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BBT.iml" filepath="$PROJECT_DIR$/BBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BBT_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BBT_main.iml" group="BBT" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BBT_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BBT_test.iml" group="BBT" />
     </modules>
   </component>
 </project>
